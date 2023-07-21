@@ -20,5 +20,5 @@ mongoose
 app.use(routes);
 
 app.listen(PORT,
-  () => console.log(`${PORT}와 연결 중...`)
+  () => console.log(`${PORT}으로 연결 중...`)
 )
